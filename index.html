@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3f4f7" />
+    <meta name="description" content="Shop car parts at Axlerate: brakes, engines, tires, batteries, filters, body parts and more for Tesla, Toyota, Ford, Honda and other popular vehicles. Save 20% on listed parts." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Axlerate" />
+    <meta property="og:title" content="Axlerate | Car parts and auto parts online" />
+    <meta property="og:description" content="Find car parts by vehicle, browse 500+ listings, and save 20% on listed parts." />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Axlerate | Car parts and auto parts online</title>
+    <script>
+      const canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      canonical.href = window.location.origin + window.location.pathname;
+      document.head.append(canonical);
+      const schema = document.createElement('script');
+      schema.type = 'application/ld+json';
+      schema.textContent = JSON.stringify({
+        '@context': 'https://schema.org',
+        '@graph': [
+          {
+            '@type': 'OnlineStore',
+            '@id': canonical.href + '#store',
+            name: 'Axlerate',
+            url: canonical.href,
+            description: 'Online auto parts store with brakes, engines, tires, batteries, filters, body parts and accessories for popular car makes.',
+            brand: { '@type': 'Brand', name: 'Axlerate' },
+            areaServed: 'US'
+          },
+          {
+            '@type': 'WebSite',
+            '@id': canonical.href + '#website',
+            name: 'Axlerate',
+            url: canonical.href,
+            publisher: { '@id': canonical.href + '#store' }
+          }
+        ]
+      });
+      document.head.append(schema);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

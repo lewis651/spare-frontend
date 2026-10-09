@@ -1,0 +1,30 @@
+# Axlerate
+
+Axlerate is an online auto parts store. The catalog includes replacement and maintenance parts for popular cars, trucks, and SUVs.
+
+## What the website offers
+
+- A searchable catalog of more than 500 listed parts, including brakes, engines, tires, paint and body parts, doors, cables, cooling, drivetrain, fuel system, ignition, steering, batteries, filters, lighting, and other essentials.
+- Vehicle and category filters to help shoppers find parts for makes including Tesla, Toyota, Ford, Honda, Chevrolet, GMC, Ram, Jeep, Hyundai, and Kia.
+- Product details with listed fitment, specifications, images, and pricing.
+- A part inquiry form for requests that are not currently in the catalog.
+- Cart checkout with an option to contact the store by live chat or WhatsApp.
+
+## Store information shown on the website
+
+- Website name: Axlerate
+- The website advertises listed parts at 20% below the comparison retail price.
+- Standard shipping is free above the threshold shown on the site.
+- Unused parts may be returned within 30 days under the published return policy.
+
+## Useful pages
+
+- Home and catalog: /
+- Shop and filters: /#/shop
+- Vehicle finder: /#/vehicles
+- About Axlerate: /#/about
+- Help and policies: /#/support
+- Request a part: /#/inquiry
+- Contact: /#/contact
+
+Product availability, fitment, prices, and policies should be confirmed on the live website before making a purchase recommendation.
